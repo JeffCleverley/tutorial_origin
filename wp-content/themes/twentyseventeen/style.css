@@ -4305,3 +4305,12 @@ p > object:only-child {
 		padding: 0;
 	}
 }
+
+.site-content-contain {
+	background-color: yellow;
+}
+
+h1.site-title a {
+	font-size: 400%;
+	color: Purple !important;
+}
