@@ -1,0 +1,19 @@
+# Ignore everything inside the root except the "wp-content" directory.
+/*
+
+## Exceptions these, track them.
+!wp-content/
+!.gitignore
+!README.md
+
+# Ignore everything inside the "wp-content" directory.
+wp-content/*
+
+## Except the theme directory - track it.
+!wp-content/themes/
+
+# Ignore everything inside the themes directory:
+wp-content/themes/*
+
+## Except the theme you are working on - track it
+!wp-content/themes/twentyseventeen
